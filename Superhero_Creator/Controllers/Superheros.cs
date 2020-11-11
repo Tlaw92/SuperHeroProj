@@ -57,7 +57,8 @@ namespace Superhero_Creator.Controllers
         // GET: Superheros/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            Superhero changesMade = _context.Superheros.Find(id);
+            return View(changesMade);
         }
 
         // POST: Superheros/Edit/5
@@ -68,6 +69,7 @@ namespace Superhero_Creator.Controllers
             try
             {
                 _context.Superheros.Update(superhero);
+                _context.SaveChanges();
                 return RedirectToAction(nameof(Index));
             }
             catch
