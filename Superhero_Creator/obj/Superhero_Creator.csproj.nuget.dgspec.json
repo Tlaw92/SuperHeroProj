@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TLaw\\Documents\\DCC2\\Week6\\Superhero_Creator\\Superhero_Creator\\Superhero_Creator.csproj": {}
+    "C:\\Users\\TLaw\\Documents\\DCC2\\Week6\\SuperHero_Creator\\Superhero_Creator\\Superhero_Creator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TLaw\\Documents\\DCC2\\Week6\\Superhero_Creator\\Superhero_Creator\\Superhero_Creator.csproj": {
+    "C:\\Users\\TLaw\\Documents\\DCC2\\Week6\\SuperHero_Creator\\Superhero_Creator\\Superhero_Creator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TLaw\\Documents\\DCC2\\Week6\\Superhero_Creator\\Superhero_Creator\\Superhero_Creator.csproj",
+        "projectUniqueName": "C:\\Users\\TLaw\\Documents\\DCC2\\Week6\\SuperHero_Creator\\Superhero_Creator\\Superhero_Creator.csproj",
         "projectName": "Superhero_Creator",
-        "projectPath": "C:\\Users\\TLaw\\Documents\\DCC2\\Week6\\Superhero_Creator\\Superhero_Creator\\Superhero_Creator.csproj",
+        "projectPath": "C:\\Users\\TLaw\\Documents\\DCC2\\Week6\\SuperHero_Creator\\Superhero_Creator\\Superhero_Creator.csproj",
         "packagesPath": "C:\\Users\\TLaw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TLaw\\Documents\\DCC2\\Week6\\Superhero_Creator\\Superhero_Creator\\obj\\",
+        "outputPath": "C:\\Users\\TLaw\\Documents\\DCC2\\Week6\\SuperHero_Creator\\Superhero_Creator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TLaw\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,9 +54,17 @@
               "target": "Package",
               "version": "[3.1.9, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[3.1.9, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
             }
           },
           "imports": [
