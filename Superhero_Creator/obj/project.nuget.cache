@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WxgMDBfTxw9O66xZ+35Edbn6UXyTxgVNzWya3FAo5E220KlW0zGm9VkHv8pIQ+NaFr9S/hIokTe5pUz2ZtCw9w==",
+  "dgSpecHash": "eiQTenFmdMtmWA1wFRi59Zmyy1u1EOopZMybEZchqj8XsrB5Z42nABABHn7idvZDQLi+mGKY7ofED0btTLjKKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TLaw\\Documents\\DCC2\\Week6\\SuperHero_Creator\\Superhero_Creator\\Superhero_Creator.csproj",
+  "projectFilePath": "C:\\Users\\TLaw\\Documents\\DCC2\\Week6\\Superhero_Creator\\Superhero_Creator\\Superhero_Creator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TLaw\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.9\\microsoft.aspnetcore.cryptography.internal.3.1.9.nupkg.sha512",
     "C:\\Users\\TLaw\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.9\\microsoft.aspnetcore.cryptography.keyderivation.3.1.9.nupkg.sha512",

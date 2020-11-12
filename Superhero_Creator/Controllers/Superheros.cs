@@ -81,16 +81,19 @@ namespace Superhero_Creator.Controllers
         // GET: Superheros/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+            Superhero deletedSuperhero = _context.Superheros.Find(id);
+            return View(deletedSuperhero);
         }
 
         // POST: Superheros/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public ActionResult Delete(int id, Superhero superhero)
         {
             try
             {
+                _context.Superheros.RemoveRange(superhero);
+                _context.SaveChanges();
                 return RedirectToAction(nameof(Index));
             }
             catch
